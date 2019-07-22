@@ -1,0 +1,448 @@
+1563776154870	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\instanet\\AppData\\Local\\Temp\\rust_mozprofile.84Xn63aojPph"
+1563776157929	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563776157929	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563776157929	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563776157930	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563776168284	Marionette	INFO	Listening on port 53763
+1563776168969	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 13872, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13872,[Parent 14220, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4884, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4884, Chconsole.error: (new Error("SessionFile is closed", "resource:///modules/sessionstore/SessionFile.jsm", 374))
+1563776212624	Marionette	INFO	Stopped listening on port 53763
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 13592, Chrome_ChildThread] WARNING: pip
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ion: about:reader*
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 334)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:334:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:327:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:351:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:390:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:63:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:354:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:292:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:338:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:189:14\ncallback@resource://gre/modules/Timer.jsm:100:7\n"
+[Parent 11008, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13988, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1398[Child 14040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14040, C[Child 14700, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14700, C1563776209910	addons.xpi	WARN	Addon with ID amazondotcom@search.mozilla.org already installed, older version will be disabled
+1563776209911	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1326:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1326:17
+makeAddonVisible@XPIDatabase.jsm:2067:10
+addToDatabase@XPIDatabase.jsm:1996:12
+install@XPIInstall.jsm:3857:27
+update@XPIProvider.jsm:1982:13
+1563776209912	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1326:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1326:17
+addToDatabase@XPIDatabase.jsm:1999:10
+install@XPIInstall.jsm:3857:27
+update@XPIProvider.jsm:1982:13
+1563776209913	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1326:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1326:17
+syncWithDB@XPIProvider.jsm:640:25
+addAddon@XPIProvider.jsm:773:14
+addAddon@XPIProvider.jsm:1546:21
+install@XPIInstall.jsm:3859:17
+update@XPIProvider.jsm:1982:13
+1563776209952	addons.xpi	WARN	Addon with ID bing@search.mozilla.org already installed, older version will be disabled
+1563776209952	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1326:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1326:17
+makeAddonVisible@XPIDatabase.jsm:2067:10
+addToDatabase@XPIDatabase.jsm:1996:12
+install@XPIInstall.jsm:3857:27
+update@XPIProvider.jsm:1982:13
+1563776209953	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1326:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1326:17
+addToDatabase@XPIDatabase.jsm:1999:10
+install@XPIInstall.jsm:3857:27
+update@XPIProvider.jsm:1982:13
+1563776209953	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1326:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1326:17
+syncWithDB@XPIProvider.jsm:640:25
+addAddon@XPIProvider.jsm:773:14
+addAddon@XPIProvider.jsm:1546:21
+install@XPIInstall.jsm:3859:17
+update@XPIProvider.jsm:1982:13
+1563776209968	addons.xpi	WARN	Addon with ID google@search.mozilla.org already installed, older version will be disabled
+1563776209968	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1326:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1326:17
+makeAddonVisible@XPIDatabase.jsm:2067:10
+addToDatabase@XPIDatabase.jsm:1996:12
+install@XPIInstall.jsm:3857:27
+update@XPIProvider.jsm:1982:13
+1563776209968	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1326:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1326:17
+addToDatabase@XPIDatabase.jsm:1999:10
+install@XPIInstall.jsm:3857:27
+update@XPIProvider.jsm:1982:13
+1563776209969	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1326:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1326:17
+syncWithDB@XPIProvider.jsm:640:25
+addAddon@XPIProvider.jsm:773:14
+addAddon@XPIProvider.jsm:1546:21
+install@XPIInstall.jsm:3859:17
+update@XPIProvider.jsm:1982:13
+1563776209986	addons.xpi	WARN	Addon with ID twitter@search.mozilla.org already installed, older version will be disabled
+1563776209986	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1326:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1326:17
+makeAddonVisible@XPIDatabase.jsm:2067:10
+addToDatabase@XPIDatabase.jsm:1996:12
+install@XPIInstall.jsm:3857:27
+update@XPIProvider.jsm:1982:13
+1563776209986	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1326:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1326:17
+addToDatabase@XPIDatabase.jsm:1999:10
+install@XPIInstall.jsm:3857:27
+update@XPIProvider.jsm:1982:13
+1563776209987	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1326:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1326:17
+syncWithDB@XPIProvider.jsm:640:25
+addAddon@XPIProvider.jsm:773:14
+addAddon@XPIProvider.jsm:1546:21
+install@XPIInstall.jsm:3859:17
+update@XPIProvider.jsm:1982:13
+1563776210031	addons.xpi	WARN	Addon with ID wikipedia@search.mozilla.org already installed, older version will be disabled
+1563776210031	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1326:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1326:17
+makeAddonVisible@XPIDatabase.jsm:2067:10
+addToDatabase@XPIDatabase.jsm:1996:12
+install@XPIInstall.jsm:3857:27
+update@XPIProvider.jsm:1982:13
+1563776210032	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1326:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1326:17
+addToDatabase@XPIDatabase.jsm:1999:10
+install@XPIInstall.jsm:3857:27
+update@XPIProvider.jsm:1982:13
+1563776210032	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1326:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1326:17
+syncWithDB@XPIProvider.jsm:640:25
+addAddon@XPIProvider.jsm:773:14
+addAddon@XPIProvider.jsm:1546:21
+install@XPIInstall.jsm:3859:17
+update@XPIProvider.jsm:1982:13
+1563776210054	addons.xpi	WARN	Addon with ID ddg@search.mozilla.org already installed, older version will be disabled
+1563776210055	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1326:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1326:17
+makeAddonVisible@XPIDatabase.jsm:2067:10
+addToDatabase@XPIDatabase.jsm:1996:12
+install@XPIInstall.jsm:3857:27
+update@XPIProvider.jsm:1982:13
+1563776210055	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1326:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1326:17
+addToDatabase@XPIDatabase.jsm:1999:10
+install@XPIInstall.jsm:3857:27
+update@XPIProvider.jsm:1982:13
+1563776210056	addons.xpi-utils	WARN	Error: XPI database modified after shutdown began(resource://gre/modules/addons/XPIDatabase.jsm:1326:17) JS Stack trace: saveChanges@XPIDatabase.jsm:1326:17
+syncWithDB@XPIProvider.jsm:640:25
+addAddon@XPIProvider.jsm:773:14
+addAddon@XPIProvider.jsm:1546:21
+install@XPIInstall.jsm:3859:17
+update@XPIProvider.jsm:1982:13
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 13888, Chrome_ChildThread] WARNING: pipe
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1563776219436	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\instanet\\AppData\\Local\\Temp\\rust_mozprofile.t7S8SFX4tKgM"
+1563776221183	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563776221183	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563776221183	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563776221183	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[Child 3236, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3236, Chrome_ChildThread] console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 334)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:334:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:327:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:351:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:390:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:63:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:354:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:292:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:338:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:189:14\ncallback@resource://gre/modules/Timer.jsm:100:7\n"
+1563776230759	Marionette	INFO	Listening on port 53878
+1563776230946	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 15260, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14612, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14612, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14472, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14472, Chrome_ChildTh[Parent 15260, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14544, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14544, C1563776247907	Marionette	INFO	Stopped listening on port 53878
+[GPU 592, Chrome
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1563776252610	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\instanet\\AppData\\Local\\Temp\\rust_mozprofile.pBzTz27TJcA1"
+1563776254000	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563776254001	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563776254001	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563776254001	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563776259762	Marionette	INFO	Listening on port 53942
+1563776260018	Marionette	WARN	TLS certificate errors will be ignored for this session
+1563776265489	Marionette	INFO	Stopped listening on port 53942
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 4476, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14432, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 601: TypeError: this.tablesData[table] is undefined
+[Parent 4476, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12456, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12456, 
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 594
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1563780788237	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\instanet\\AppData\\Local\\Temp\\rust_mozprofile.Oc8983Mb0adh"
+1563780791183	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563780791183	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563780791183	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563780791183	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563780801781	Marionette	INFO	Listening on port 50687
+1563780802647	Marionette	WARN	TLS certificate errors will be ignored for this session
+1563780808780	Marionette	INFO	Stopped listening on port 50687
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+[Parent 2616, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1276, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1276, Chrom[Child 12216, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12216, Chrome_ChildThread] WARNING: pipe error: 109: filJavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 601: TypeError: this.tablesData[table] is undefined
+[Parent 2616, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11964, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11964[GPU 8
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+20
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1563781129342	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\instanet\\AppData\\Local\\Temp\\rust_mozprofile.zFPC4uTs53tt"
+1563781131036	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563781131037	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563781131037	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563781131037	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563781138690	Marionette	INFO	Listening on port 51106
+1563781139070	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://dbzproperty-a.akamaihd.net/property/desktop/latest/assets/client.03b8c6a4.js, line 1: unreachable code after return statement
+JavaScript warning: https://dbzproperty-a.akamaihd.net/property/desktop/latest/assets/client.03b8c6a4.js, line 1: unreachable code after return statement
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: resource:///modules/UrlbarView.jsm, line 123: Array.reduce is deprecated; use Array.prototype.reduce instead
+JavaScript warning: https://dbzproperty-a.akamaihd.net/property/desktop/latest/assets/client.03b8c6a4.js, line 1: unreachable code after return statement
+JavaScript warning: https://dbzproperty-a.akamaihd.net/property/desktop/latest/assets/client.03b8c6a4.js, line 1: unreachable code after return statement
+JavaScript warning: https://dbzproperty-a.akamaihd.net/property/desktop/latest/assets/client.03b8c6a4.js, line 1: unreachable code after return statement
+JavaScript warning: https://dbzproperty-a.akamaihd.net/property/desktop/latest/assets/client.03b8c6a4.js, line 1: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221563753612921%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://dbzproperty-a.akamaihd.net/property/desktop/latest/assets/client.03b8c6a4.js, line 1: unreachable code after return statement
+JavaScript warning: https://dbzproperty-a.akamaihd.net/property/desktop/latest/assets/client.03b8c6a4.js, line 1: unreachable code after return statement
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context18' can't be sent as the connection is closed."
+JavaScript error: resource://devtools/server/actors/inspector/walker.js, line 344: TypeError: this._refMap is null
+JavaScript error: resource://devtools/server/actors/inspector/walker.js, line 344: TypeError: this._refMap is null
+JavaScript error: resource://devtools/server/actors/inspector/walker.js, line 344: TypeError: this._refMap is null
+JavaScript error: resource://devtools/server/actors/inspector/walker.js, line 344: TypeError: this._refMap is null
+console.error: "Error sending event: display-change"
+console.error: "[Exception... \"Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIEventListenerService.getListenerInfoFor]\"  nsresult: \"0x80070057 (NS_ERROR_ILLEGAL_VALUE)\"  location: \"JS frame :: resource://devtools/server/actors/inspector/event-collector.js :: getDOMListeners :: line 258\"  data: no]: getDOMListeners@resource://devtools/server/actors/inspector/event-collector.js:258:22\ngetListeners@resource://devtools/server/actors/inspector/event-collector.js:312:28\nhasListeners@resource://devtools/server/actors/inspector/event-collector.js:223:17\nhasEventListeners@resource://devtools/server/actors/inspector/event-collector.js:769:21\nget _hasEventListeners@resource://devtools/server/actors/inspector/node.js:305:33\nform@resource://devtools/server/actors/inspector/node.js:147:7\nwrite@resource://devtools/shared/protocol.js:366:32\ntypes.addArrayType/write/<@resource://devtools/shared/protocol.js:231:33\nwrite@resource://devtools/shared/protocol.js:231:16\nwrite@resource://devtools/shared/protocol.js:511:22\nwrite@resource://devtools/shared/protocol.js:693:26\n_sendEvent@resource://devtools/shared/protocol.js:1017:24\ninitialize/<@resource://devtools/shared/protocol.js:999:16\nemit@resource://devtools/shared/event-emitter.js:186:24\nemit@resource://devtools/shared/event-emitter.js:267:18\n_onReflows@resource://devtools/server/actors/inspector/walker.js:417:12\nemit@resource://devtools/shared/event-emitter.js:186:24\nemit@resource://devtools/shared/event-emitter.js:267:18\n_startEventLoop@resource://devtools/server/actors/reflow.js:312:12\nnotify@resource://gre/modules/Timer.jsm:43:17\n"
+[Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIEventListenerService.getListenerInfoFor]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://devtools/server/actors/inspector/event-collector.js :: getDOMListeners :: line 258"  data: no]: getDOMListeners@resource://devtools/server/actors/inspector/event-collector.js:258:22
+getListeners@resource://devtools/server/actors/inspector/event-collector.js:312:28
+hasListeners@resource://devtools/server/actors/inspector/event-collector.js:223:17
+hasEventListeners@resource://devtools/server/actors/inspector/event-collector.js:769:21
+get _hasEventListeners@resource://devtools/server/actors/inspector/node.js:305:33
+form@resource://devtools/server/actors/inspector/node.js:147:7
+write@resource://devtools/shared/protocol.js:366:32
+types.addArrayType/write/<@resource://devtools/shared/protocol.js:231:33
+write@resource://devtools/shared/protocol.js:231:16
+write@resource://devtools/shared/protocol.js:511:22
+write@resource://devtools/shared/protocol.js:693:26
+_sendEvent@resource://devtools/shared/protocol.js:1017:24
+initialize/<@resource://devtools/shared/protocol.js:999:16
+emit@resource://devtools/shared/event-emitter.js:186:24
+emit@resource://devtools/shared/event-emitter.js:267:18
+_onReflows@resource://devtools/server/actors/inspector/walker.js:417:12
+emit@resource://devtools/shared/event-emitter.js:186:24
+emit@resource://devtools/shared/event-emitter.js:267:18
+_startEventLoop@resource://devtools/server/actors/reflow.js:312:12
+notify@resource://gre/modules/Timer.jsm:43:17
+
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: "getLayout@resource://devtools/server/actors/styles.js:832:5\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Protocol error (unknownError): node is null"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+JavaScript warning: https://dbzproperty-a.akamaihd.net/property/desktop/latest/assets/client.03b8c6a4.js, line 1: unreachable code after return statement
+JavaScript warning: https://dbzproperty-a.akamaihd.net/property/desktop/latest/assets/client.03b8c6a4.js, line 1: unreachable code after return statement
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: "getGrids@resource://devtools/server/actors/layout.js:443:26\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\ngetGrids@resource://devtools/server/actors/layout.js:448:43\nhandler@resource://devtools/shared/protocol.js:1189:37\nonPacket@resource://devtools/server/main.js:1291:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+1563787227337	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\instanet\\AppData\\Local\\Temp\\rust_mozprofile.rCCs0fY4iYlZ"
+1563787229526	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563787229526	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563787229527	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563787229527	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563787237693	Marionette	INFO	Listening on port 50465
+1563787237909	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://dbzproperty-a.akamaihd.net/property/desktop/latest/assets/client.03b8c6a4.js, line 1: unreachable code after return statement
+JavaScript warning: https://dbzproperty-a.akamaihd.net/property/desktop/latest/assets/client.03b8c6a4.js, line 1: unreachable code after return statement
+JavaScript error: resource://devtools/client/shared/telemetry.js, line 652: TypeError: event is undefined
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context18' can't be sent as the connection is closed."
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn1.child1/context18' can't be sent as the connection is closed."
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221563753612921%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: https://s0.2mdn.net/879366/express_html_inpage_rendering_lib_200_254.js, line 69: NS_ERROR_NOT_INITIALIZED: 
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+console.error: "Error sending event: display-change"
+console.error: "[Exception... \"Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIEventListenerService.getListenerInfoFor]\"  nsresult: \"0x80070057 (NS_ERROR_ILLEGAL_VALUE)\"  location: \"JS frame :: resource://devtools/server/actors/inspector/event-collector.js :: getDOMListeners :: line 258\"  data: no]: getDOMListeners@resource://devtools/server/actors/inspector/event-collector.js:258:22\ngetListeners@resource://devtools/server/actors/inspector/event-collector.js:312:28\nhasListeners@resource://devtools/server/actors/inspector/event-collector.js:223:17\nhasEventListeners@resource://devtools/server/actors/inspector/event-collector.js:769:21\nget _hasEventListeners@resource://devtools/server/actors/inspector/node.js:305:33\nform@resource://devtools/server/actors/inspector/node.js:147:7\nwrite@resource://devtools/shared/protocol.js:366:32\ntypes.addArrayType/write/<@resource://devtools/shared/protocol.js:231:33\nwrite@resource://devtools/shared/protocol.js:231:16\nwrite@resource://devtools/shared/protocol.js:511:22\nwrite@resource://devtools/shared/protocol.js:693:26\n_sendEvent@resource://devtools/shared/protocol.js:1017:24\ninitialize/<@resource://devtools/shared/protocol.js:999:16\nemit@resource://devtools/shared/event-emitter.js:186:24\nemit@resource://devtools/shared/event-emitter.js:267:18\n_onReflows@resource://devtools/server/actors/inspector/walker.js:417:12\nemit@resource://devtools/shared/event-emitter.js:186:24\nemit@resource://devtools/shared/event-emitter.js:267:18\n_startEventLoop@resource://devtools/server/actors/reflow.js:312:12\nnotify@resource://gre/modules/Timer.jsm:43:17\n"
+[Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIEventListenerService.getListenerInfoFor]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://devtools/server/actors/inspector/event-collector.js :: getDOMListeners :: line 258"  data: no]: getDOMListeners@resource://devtools/server/actors/inspector/event-collector.js:258:22
+getListeners@resource://devtools/server/actors/inspector/event-collector.js:312:28
+hasListeners@resource://devtools/server/actors/inspector/event-collector.js:223:17
+hasEventListeners@resource://devtools/server/actors/inspector/event-collector.js:769:21
+get _hasEventListeners@resource://devtools/server/actors/inspector/node.js:305:33
+form@resource://devtools/server/actors/inspector/node.js:147:7
+write@resource://devtools/shared/protocol.js:366:32
+types.addArrayType/write/<@resource://devtools/shared/protocol.js:231:33
+write@resource://devtools/shared/protocol.js:231:16
+write@resource://devtools/shared/protocol.js:511:22
+write@resource://devtools/shared/protocol.js:693:26
+_sendEvent@resource://devtools/shared/protocol.js:1017:24
+initialize/<@resource://devtools/shared/protocol.js:999:16
+emit@resource://devtools/shared/event-emitter.js:186:24
+emit@resource://devtools/shared/event-emitter.js:267:18
+_onReflows@resource://devtools/server/actors/inspector/walker.js:417:12
+emit@resource://devtools/shared/event-emitter.js:186:24
+emit@resource://devtools/shared/event-emitter.js:267:18
+_startEventLoop@resource://devtools/server/actors/reflow.js:312:12
+notify@resource://gre/modules/Timer.jsm:43:17
+
+console.error: "Error sending event: display-change"
+console.error: "[Exception... \"Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIEventListenerService.getListenerInfoFor]\"  nsresult: \"0x80070057 (NS_ERROR_ILLEGAL_VALUE)\"  location: \"JS frame :: resource://devtools/server/actors/inspector/event-collector.js :: getDOMListeners :: line 258\"  data: no]: getDOMListeners@resource://devtools/server/actors/inspector/event-collector.js:258:22\ngetListeners@resource://devtools/server/actors/inspector/event-collector.js:312:28\nhasListeners@resource://devtools/server/actors/inspector/event-collector.js:223:17\nhasEventListeners@resource://devtools/server/actors/inspector/event-collector.js:769:21\nget _hasEventListeners@resource://devtools/server/actors/inspector/node.js:305:33\nform@resource://devtools/server/actors/inspector/node.js:147:7\nwrite@resource://devtools/shared/protocol.js:366:32\ntypes.addArrayType/write/<@resource://devtools/shared/protocol.js:231:33\nwrite@resource://devtools/shared/protocol.js:231:16\nwrite@resource://devtools/shared/protocol.js:511:22\nwrite@resource://devtools/shared/protocol.js:693:26\n_sendEvent@resource://devtools/shared/protocol.js:1017:24\ninitialize/<@resource://devtools/shared/protocol.js:999:16\nemit@resource://devtools/shared/event-emitter.js:186:24\nemit@resource://devtools/shared/event-emitter.js:267:18\n_onReflows@resource://devtools/server/actors/inspector/walker.js:417:12\nemit@resource://devtools/shared/event-emitter.js:186:24\nemit@resource://devtools/shared/event-emitter.js:267:18\n_startEventLoop@resource://devtools/server/actors/reflow.js:312:12\nnotify@resource://gre/modules/Timer.jsm:43:17\n"
+[Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIEventListenerService.getListenerInfoFor]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://devtools/server/actors/inspector/event-collector.js :: getDOMListeners :: line 258"  data: no]: getDOMListeners@resource://devtools/server/actors/inspector/event-collector.js:258:22
+getListeners@resource://devtools/server/actors/inspector/event-collector.js:312:28
+hasListeners@resource://devtools/server/actors/inspector/event-collector.js:223:17
+hasEventListeners@resource://devtools/server/actors/inspector/event-collector.js:769:21
+get _hasEventListeners@resource://devtools/server/actors/inspector/node.js:305:33
+form@resource://devtools/server/actors/inspector/node.js:147:7
+write@resource://devtools/shared/protocol.js:366:32
+types.addArrayType/write/<@resource://devtools/shared/protocol.js:231:33
+write@resource://devtools/shared/protocol.js:231:16
+write@resource://devtools/shared/protocol.js:511:22
+write@resource://devtools/shared/protocol.js:693:26
+_sendEvent@resource://devtools/shared/protocol.js:1017:24
+initialize/<@resource://devtools/shared/protocol.js:999:16
+emit@resource://devtools/shared/event-emitter.js:186:24
+emit@resource://devtools/shared/event-emitter.js:267:18
+_onReflows@resource://devtools/server/actors/inspector/walker.js:417:12
+emit@resource://devtools/shared/event-emitter.js:186:24
+emit@resource://devtools/shared/event-emitter.js:267:18
+_startEventLoop@resource://devtools/server/actors/reflow.js:312:12
+notify@resource://gre/modules/Timer.jsm:43:17
+
+JavaScript warning: resource:///modules/UrlbarView.jsm, line 123: Array.reduce is deprecated; use Array.prototype.reduce instead
+JavaScript warning: https://dbzproperty-a.akamaihd.net/property/desktop/latest/assets/client.03b8c6a4.js, line 1: unreachable code after return statement
+JavaScript warning: https://dbzproperty-a.akamaihd.net/property/desktop/latest/assets/client.03b8c6a4.js, line 1: unreachable code after return statement
+JavaScript warning: https://dbzproperty-a.akamaihd.net/property/desktop/latest/assets/client.03b8c6a4.js, line 1: unreachable code after return statement
+JavaScript warning: https://dbzproperty-a.akamaihd.net/property/desktop/latest/assets/client.03b8c6a4.js, line 1: unreachable code after return statement
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn2.child1/context18' can't be sent as the connection is closed."
+JavaScript error: resource://devtools/server/actors/inspector/walker.js, line 344: TypeError: this._refMap is null
+JavaScript error: resource://devtools/server/actors/inspector/walker.js, line 344: TypeError: this._refMap is null
+JavaScript error: resource://devtools/server/actors/inspector/walker.js, line 344: TypeError: this._refMap is null
+JavaScript error: resource://devtools/server/actors/inspector/walker.js, line 344: TypeError: this._refMap is null
+*************************
+A coding exception was thrown in a Promise resolution callback.
+See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+
+Full message: TypeError: this.docShell is null
+Full stack: get window@resource://devtools/server/actors/targets/browsing-context.js:338:5
+get window@resource://devtools/server/actors/stylesheets.js:241:5
+get document@resource://devtools/server/actors/stylesheets.js:248:5
+get styleSheetIndex@resource://devtools/server/actors/stylesheets.js:293:27
+form@resource://devtools/server/actors/stylesheets.js:413:7
+_notifyPropertyChanged@resource://devtools/server/actors/stylesheets.js:449:49
+form/<@resource://devtools/server/actors/stylesheets.js:422:14
+process@resource://gre/modules/Promise-backend.js:923:38
+walkerLoop@resource://gre/modules/Promise-backend.js:807:29
+scheduleWalkerLoop/<@resource://gre/modules/Promise-backend.js:743:14
+
+*************************
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn3.child1/context18' can't be sent as the connection is closed."
+[Parent 1500, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13124, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13124, Chro
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+me_ChildThrea
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+d] WARNING: pipe error: 109: file z:/task_1563
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+383129/build/src/i
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+pc/chromium/src/chrome/
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+common/ipc_channel_w
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+in.cc, line 
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+341
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x530005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+[Parent 1500, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 1500, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1380, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1380, Chrome_ChildThre1563793211861	Marionette	INFO	Stopped listening on port 50465
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1563793947587	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\instanet\\AppData\\Local\\Temp\\rust_mozprofile.08fWU7lcR9tI"
+1563793948758	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563793948758	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563793948758	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563793948758	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563793953011	Marionette	INFO	Listening on port 56301
+1563793953358	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://dbzproperty-a.akamaihd.net/property/desktop/latest/assets/client.03b8c6a4.js, line 1: unreachable code after return statement
+JavaScript warning: https://dbzproperty-a.akamaihd.net/property/desktop/latest/assets/client.03b8c6a4.js, line 1: unreachable code after return statement
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript error: resource://devtools/client/shared/telemetry.js, line 652: TypeError: event is undefined
+console.warn: "Error while detaching the thread front: 'detach' request packet to 'server1.conn0.child1/context18' can't be sent as the connection is closed."
+JavaScript error: resource://devtools/server/actors/inspector/walker.js, line 344: TypeError: this._refMap is null
+JavaScript error: resource://devtools/server/actors/inspector/walker.js, line 344: TypeError: this._refMap is null
+JavaScript error: resource://devtools/server/actors/inspector/walker.js, line 344: TypeError: this._refMap is null
+JavaScript warning: resource:///modules/UrlbarView.jsm, line 123: Array.reduce is deprecated; use Array.prototype.reduce instead
+JavaScript warning: https://dbzproperty-a.akamaihd.net/property/desktop/latest/assets/client.03b8c6a4.js, line 1: unreachable code after return statement
+JavaScript warning: https://dbzproperty-a.akamaihd.net/property/desktop/latest/assets/client.03b8c6a4.js, line 1: unreachable code after return statement
+JavaScript warning: https://dbzproperty-a.akamaihd.net/property/desktop/latest/assets/client.03b8c6a4.js, line 1: unreachable code after return statement
+JavaScript warning: https://dbzproperty-a.akamaihd.net/property/desktop/latest/assets/client.03b8c6a4.js, line 1: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221563753612921%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+[Parent 1716, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7516, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2872, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2872, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/[Parent 1716, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9392, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9392,1563795467934	Marionette	INFO	Stopped listening on port 56301
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 869
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
